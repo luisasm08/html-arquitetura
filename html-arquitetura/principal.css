@@ -1,0 +1,141 @@
+@charset "UTF-8";
+body{
+    background-color: black;
+}
+div#interface{
+    width: 800px;
+    background-image: url("fundo ceu azul.jpg");
+    margin: 10px auto 10px auto;
+    padding: 10px;
+}
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 500px;
+}
+nav#menu li{
+    display: inline-block;
+    background-color: white;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+nav#menu{
+    display: block;
+}
+nav#menu li:hover{
+    background-color: #606060;
+}
+nav#menu a{
+    color: black;
+    text-decoration: none;
+}
+nav#menu a:hover{
+    color: white;
+    text-decoration: underline;
+}
+ul#album{
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+ul#album li{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid white;
+    background-color: white;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 4);
+    -webkit-transition: all 0.4s ease-in;
+}
+ul#album li#foto01{
+    background: url("catedral metropolitana.jpg")no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#album li#foto02{
+    background: url("templo bahai.jpg")no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#album li#foto03{
+    background: url("coliseu-roma-italia.jpg")no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#album li#foto04{
+    background: url("museu de artes sp.jpg")no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#album li#foto05{
+    background: url("lamoneda.jpg")no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#album li#foto06{
+    background: url("ponte.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#album li#foto01:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#album li#foto02:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#album li#foto03:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#album li#foto04:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#album li#foto05:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#album li#foto06:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#album li:hover{
+    -webkit-transform: scale(1.5);
+}
+ul#album li span{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    background-color: rgba(0, 0, 0, 3);
+    font-size: 9pt;
+    line-height: 370px;
+    padding: 5px;
+    opacity: 0;
+}
+ul#album li:hover span{
+    opacity: 1;
+}
+footer#rodape{
+    margin-top: 2px;
+    text-align: center;
+    color: whitesmoke;
+    background-color: black;
+    padding: 5px 5px 5px 5px;
+}
+footer#rodape a{
+    color: whitesmoke;
+    text-decoration: none;
+}
